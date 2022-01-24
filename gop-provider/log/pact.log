@@ -1,0 +1,146 @@
+# Logfile created on 2021-12-19 18:08:02 +0300 by logger.rb/47272
+I, [2021-12-19T18:13:34.686424 #67325]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2021-12-19T18:13:34.694568 #67325]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2021-12-19T18:13:34.694637 #67325] DEBUG -- : body :
+I, [2021-12-19T18:13:34.712893 #67325]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Sun, 19 Dec 2021 15:13:34 GMT"}, see debug logs for body
+D, [2021-12-19T18:13:34.712969 #67325] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2021-12-19T18:13:58.347217 #67368]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2021-12-19T18:13:58.353142 #67368]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2021-12-19T18:13:58.353201 #67368] DEBUG -- : body :
+I, [2021-12-19T18:13:58.366538 #67368]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"31", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sun, 19 Dec 2021 15:13:58 GMT"}, see debug logs for body
+D, [2021-12-19T18:13:58.366606 #67368] DEBUG -- : body: Cannot GET /products/1/discount
+I, [2021-12-19T18:14:08.878092 #67412]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2021-12-19T18:14:08.884552 #67412]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2021-12-19T18:14:08.884621 #67412] DEBUG -- : body :
+I, [2021-12-19T18:14:08.901250 #67412]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Sun, 19 Dec 2021 15:14:08 GMT"}, see debug logs for body
+D, [2021-12-19T18:14:08.901333 #67412] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2021-12-19T23:32:46.370783 #71437]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2021-12-19T23:32:46.376885 #71437]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2021-12-19T23:32:46.376987 #71437] DEBUG -- : body :
+I, [2021-12-19T23:32:46.393580 #71437]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Sun, 19 Dec 2021 20:32:46 GMT"}, see debug logs for body
+D, [2021-12-19T23:32:46.393651 #71437] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2021-12-19T23:32:46.461377 #71437]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2021-12-19T23:32:46.462924 #71437]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2021-12-19T23:32:46.462991 #71437] DEBUG -- : body :
+I, [2021-12-19T23:32:46.465641 #71437]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Sun, 19 Dec 2021 20:32:46 GMT"}, see debug logs for body
+D, [2021-12-19T23:32:46.465712 #71437] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2021-12-19T23:38:59.855088 #71553]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2021-12-19T23:38:59.861055 #71553]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2021-12-19T23:38:59.861111 #71553] DEBUG -- : body :
+I, [2021-12-19T23:38:59.876813 #71553]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"31", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sun, 19 Dec 2021 20:38:59 GMT"}, see debug logs for body
+D, [2021-12-19T23:38:59.876895 #71553] DEBUG -- : body: Cannot GET /products/1/discount
+I, [2021-12-19T23:38:59.942110 #71553]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2021-12-19T23:38:59.943669 #71553]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2021-12-19T23:38:59.943719 #71553] DEBUG -- : body :
+I, [2021-12-19T23:38:59.945461 #71553]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"31", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Sun, 19 Dec 2021 20:38:59 GMT"}, see debug logs for body
+D, [2021-12-19T23:38:59.945510 #71553] DEBUG -- : body: Cannot GET /products/1/discount
+I, [2022-01-24T15:14:56.822938 #14246]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T15:14:56.829212 #14246]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T15:14:56.829280 #14246] DEBUG -- : body :
+I, [2022-01-24T15:14:56.845109 #14246]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"31", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 24 Jan 2022 12:14:56 GMT"}, see debug logs for body
+D, [2022-01-24T15:14:56.845191 #14246] DEBUG -- : body: Cannot GET /products/1/discount
+I, [2022-01-24T15:14:56.938170 #14246]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T15:14:56.939915 #14246]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T15:14:56.939967 #14246] DEBUG -- : body :
+I, [2022-01-24T15:14:56.941839 #14246]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"31", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 24 Jan 2022 12:14:56 GMT"}, see debug logs for body
+D, [2022-01-24T15:14:56.941891 #14246] DEBUG -- : body: Cannot GET /products/1/discount
+I, [2022-01-24T16:04:05.140959 #14648]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T16:04:05.147049 #14648]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T16:04:05.147104 #14648] DEBUG -- : body :
+I, [2022-01-24T16:04:05.165606 #14648]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"31", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 24 Jan 2022 13:04:05 GMT"}, see debug logs for body
+D, [2022-01-24T16:04:05.165720 #14648] DEBUG -- : body: Cannot GET /products/1/discount
+I, [2022-01-24T16:04:05.245082 #14648]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T16:04:05.246764 #14648]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T16:04:05.246816 #14648] DEBUG -- : body :
+I, [2022-01-24T16:04:05.248667 #14648]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"31", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 24 Jan 2022 13:04:05 GMT"}, see debug logs for body
+D, [2022-01-24T16:04:05.248715 #14648] DEBUG -- : body: Cannot GET /products/1/discount
+I, [2022-01-24T16:13:19.425381 #14902]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T16:13:19.432173 #14902]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T16:13:19.432236 #14902] DEBUG -- : body :
+I, [2022-01-24T16:13:19.449650 #14902]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 13:13:19 GMT"}, see debug logs for body
+D, [2022-01-24T16:13:19.449722 #14902] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T16:13:19.511989 #14902]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T16:13:19.513702 #14902]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T16:13:19.513758 #14902] DEBUG -- : body :
+I, [2022-01-24T16:13:19.516635 #14902]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 13:13:19 GMT"}, see debug logs for body
+D, [2022-01-24T16:13:19.516692 #14902] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:10:11.732379 #17963]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate 2 A request for campaign 2 with GET /products/2/discount?rate=40 returns a response which has status code 200'
+I, [2022-01-24T22:10:11.738804 #17963]  INFO -- : Sending GET request to path: "/products/2/discount?rate=40" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate 2"}]}, see debug logs for body
+D, [2022-01-24T22:10:11.738923 #17963] DEBUG -- : body :
+I, [2022-01-24T22:10:11.754883 #17963]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:10:11 GMT"}, see debug logs for body
+D, [2022-01-24T22:10:11.754955 #17963] DEBUG -- : body: {"id":2,"name":"Product 2","price":60,"has_campaign":true}
+I, [2022-01-24T22:10:11.760400 #17963]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:10:11.762182 #17963]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:10:11.762233 #17963] DEBUG -- : body :
+I, [2022-01-24T22:10:11.764288 #17963]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:10:11 GMT"}, see debug logs for body
+D, [2022-01-24T22:10:11.764338 #17963] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:10:11.847704 #17963]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate 2 A request for campaign 2 with GET /products/2/discount?rate=40 returns a response which has status code 200'
+I, [2022-01-24T22:10:11.849252 #17963]  INFO -- : Sending GET request to path: "/products/2/discount?rate=40" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate 2"}]}, see debug logs for body
+D, [2022-01-24T22:10:11.849298 #17963] DEBUG -- : body :
+I, [2022-01-24T22:10:11.852304 #17963]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:10:11 GMT"}, see debug logs for body
+D, [2022-01-24T22:10:11.852353 #17963] DEBUG -- : body: {"id":2,"name":"Product 2","price":60,"has_campaign":true}
+I, [2022-01-24T22:10:11.853790 #17963]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:10:11.855271 #17963]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:10:11.855326 #17963] DEBUG -- : body :
+I, [2022-01-24T22:10:11.857363 #17963]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:10:11 GMT"}, see debug logs for body
+D, [2022-01-24T22:10:11.857409 #17963] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:12:20.525252 #18109]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate 2 A request for campaign 2 with GET /products/2/discount?rate=40 returns a response which has status code 200'
+I, [2022-01-24T22:12:20.531198 #18109]  INFO -- : Sending GET request to path: "/products/2/discount?rate=40" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate 2"}]}, see debug logs for body
+D, [2022-01-24T22:12:20.531260 #18109] DEBUG -- : body :
+I, [2022-01-24T22:12:20.547605 #18109]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:12:20 GMT"}, see debug logs for body
+D, [2022-01-24T22:12:20.547697 #18109] DEBUG -- : body: {"id":2,"name":"Product 2","price":60,"has_campaign":true}
+I, [2022-01-24T22:12:20.552202 #18109]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:12:20.553805 #18109]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:12:20.553846 #18109] DEBUG -- : body :
+I, [2022-01-24T22:12:20.556536 #18109]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:12:20 GMT"}, see debug logs for body
+D, [2022-01-24T22:12:20.556588 #18109] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:12:20.629720 #18109]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate 2 A request for campaign 2 with GET /products/2/discount?rate=40 returns a response which has status code 200'
+I, [2022-01-24T22:12:20.631195 #18109]  INFO -- : Sending GET request to path: "/products/2/discount?rate=40" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate 2"}]}, see debug logs for body
+D, [2022-01-24T22:12:20.631239 #18109] DEBUG -- : body :
+I, [2022-01-24T22:12:20.632950 #18109]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:12:20 GMT"}, see debug logs for body
+D, [2022-01-24T22:12:20.632989 #18109] DEBUG -- : body: {"id":2,"name":"Product 2","price":60,"has_campaign":true}
+I, [2022-01-24T22:12:20.634321 #18109]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:12:20.635466 #18109]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:12:20.635505 #18109] DEBUG -- : body :
+I, [2022-01-24T22:12:20.637089 #18109]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:12:20 GMT"}, see debug logs for body
+D, [2022-01-24T22:12:20.637126 #18109] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:14:11.696064 #18246]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:14:11.701516 #18246]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:14:11.701572 #18246] DEBUG -- : body :
+I, [2022-01-24T22:14:11.717440 #18246]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:14:11 GMT"}, see debug logs for body
+D, [2022-01-24T22:14:11.717523 #18246] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:14:11.799760 #18246]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:14:11.801456 #18246]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:14:11.801505 #18246] DEBUG -- : body :
+I, [2022-01-24T22:14:11.803427 #18246]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:14:11 GMT"}, see debug logs for body
+D, [2022-01-24T22:14:11.803468 #18246] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:14:16.126802 #18286]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:14:16.132247 #18286]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:14:16.132316 #18286] DEBUG -- : body :
+I, [2022-01-24T22:14:16.147242 #18286]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:14:16 GMT"}, see debug logs for body
+D, [2022-01-24T22:14:16.147329 #18286] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:14:16.237959 #18286]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:14:16.239745 #18286]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:14:16.239811 #18286] DEBUG -- : body :
+I, [2022-01-24T22:14:16.242148 #18286]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:14:16 GMT"}, see debug logs for body
+D, [2022-01-24T22:14:16.242227 #18286] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:14:19.326554 #18327]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:14:19.331155 #18327]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:14:19.331209 #18327] DEBUG -- : body :
+I, [2022-01-24T22:14:19.344173 #18327]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:14:19 GMT"}, see debug logs for body
+D, [2022-01-24T22:14:19.344255 #18327] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T22:14:19.411053 #18327]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T22:14:19.412575 #18327]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T22:14:19.412623 #18327] DEBUG -- : body :
+I, [2022-01-24T22:14:19.414335 #18327]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 19:14:19 GMT"}, see debug logs for body
+D, [2022-01-24T22:14:19.414395 #18327] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T23:06:45.580748 #19038]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T23:06:45.586556 #19038]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T23:06:45.586611 #19038] DEBUG -- : body :
+I, [2022-01-24T23:06:45.603118 #19038]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 20:06:45 GMT"}, see debug logs for body
+D, [2022-01-24T23:06:45.603191 #19038] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}
+I, [2022-01-24T23:06:45.679784 #19038]  INFO -- : Running example 'Verifying a pact between GopClient and GopServer Given i get new product price with specified discount rate A request for campaign with GET /products/1/discount?rate=30 returns a response which has status code 200'
+I, [2022-01-24T23:06:45.681398 #19038]  INFO -- : Sending GET request to path: "/products/1/discount?rate=30" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"i get new product price with specified discount rate"}]}, see debug logs for body
+D, [2022-01-24T23:06:45.681444 #19038] DEBUG -- : body :
+I, [2022-01-24T23:06:45.683208 #19038]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"58", "Content-Type"=>"application/json", "Date"=>"Mon, 24 Jan 2022 20:06:45 GMT"}, see debug logs for body
+D, [2022-01-24T23:06:45.683252 #19038] DEBUG -- : body: {"id":1,"name":"Product 1","price":70,"has_campaign":true}

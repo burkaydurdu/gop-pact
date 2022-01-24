@@ -1,0 +1,73 @@
+I, [2022-01-24T23:04:18.682956 #18914]  INFO -- : Registered expected interaction GET /products/1/discount?rate=30
+D, [2022-01-24T23:04:18.683165 #18914] DEBUG -- : {
+  "description": "A request for campaign",
+  "providerState": "i get new product price with specified discount rate",
+  "request": {
+    "method": "GET",
+    "path": "/products/1/discount",
+    "query": {
+      "rate": [
+        {
+          "json_class": "Pact::SomethingLike",
+          "contents": "30"
+        }
+      ]
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "id": {
+        "json_class": "Pact::SomethingLike",
+        "contents": 42
+      },
+      "name": {
+        "json_class": "Pact::SomethingLike",
+        "contents": ""
+      },
+      "price": {
+        "json_class": "Pact::SomethingLike",
+        "contents": 42
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2022-01-24T23:04:18.685350 #18914]  INFO -- : Received request GET /products/1/discount?rate=30
+D, [2022-01-24T23:04:18.685434 #18914] DEBUG -- : {
+  "path": "/products/1/discount",
+  "query": "rate=30",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:51652",
+    "User-Agent": "Go-http-client/1.1",
+    "Accept-Encoding": "gzip",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2022-01-24T23:04:18.685800 #18914]  INFO -- : Found matching response for GET /products/1/discount?rate=30
+D, [2022-01-24T23:04:18.685912 #18914] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "id": {
+      "json_class": "Pact::SomethingLike",
+      "contents": 42
+    },
+    "name": {
+      "json_class": "Pact::SomethingLike",
+      "contents": ""
+    },
+    "price": {
+      "json_class": "Pact::SomethingLike",
+      "contents": 42
+    }
+  }
+}
+I, [2022-01-24T23:04:18.687811 #18914]  INFO -- : Verifying - interactions matched
+I, [2022-01-24T23:04:18.689454 #18914]  INFO -- : Cleared interactions
