@@ -16,3 +16,9 @@
 #pact-broker create-version-tag --pacticipant GopClient --broker-base-url=http://localhost --version 1.2 --tag=dev
 
 #pact-broker can-i-deploy --pacticipant=GopClient --broker-base-url=http://localhost --version=1.5 --to=master
+
+#pact-broker list-environments  --broker-base-url=http://localhost
+
+#pact-broker list-pacticipants --broker-base-url=http://localhost
+
+#pact-broker list-latest-pact-versions --broker-base-url=http://localhost
